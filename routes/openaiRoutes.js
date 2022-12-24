@@ -1,8 +1,8 @@
-import express from 'express'
-import { generateImage } from '../controllers/openaiController.js';
+const express = require('express')
+const {generateImage} = require('../controllers/openaiController.js')
 
 const router = express.Router();
 
 router.post('/generateimage', generateImage)
 
-export { router as openaiRouter };
+module.exports = { router };
