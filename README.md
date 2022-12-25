@@ -8,7 +8,7 @@ using DALLE 2 from openAi to fetch images. Node-Express server with basic static
 - npm i
 - run "npm run dev"
 - then go to "localhost:5003"
-- the .env file has the port, you can choose another port
+- CREATE .env file and add PORT=5003, you can choose another port
 - generate openai api key and put it in as OPENAI_API_KEY='XXXXXXX' in the .env file
 
 documentation open ai api key: 
